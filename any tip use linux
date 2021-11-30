@@ -1,0 +1,7 @@
+**if you need uninstall 1 programe 
+
+- Open terminal(Ctrl +Shift+T)
+- First find installed package using below command 
+    + sudo dpkg -l | grep <name programe >
+- Then,If you should uninstall file 
+    + sudo dpkg --purge <Packages>
